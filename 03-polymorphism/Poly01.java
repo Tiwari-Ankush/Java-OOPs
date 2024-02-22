@@ -17,13 +17,13 @@ class Student {
         System.out.println(name + " " + age);
     }
 
-    Student() {
-    };
+    // Student() {
+    // };
 
-    Student(Student orig) {
-        this.name = orig.name;
-        this.age = orig.age;
-    };
+    // Student(Student orig) {
+    // this.name = orig.name;
+    // this.age = orig.age;
+    // };
 }
 
 public class Poly01 {
@@ -32,8 +32,11 @@ public class Poly01 {
         s1.printInfo("Ankush");
         s1.printInfo(21);
         s1.printInfo("TIwari", 21);
+        // s1.name = "Bro";
+        // s1.age = 32;
 
-        Student s2 = new Student(s1);
-        System.out.println("Copy constructor" + " " + s2.name + " " + s2.age);
+        // Student s2 = new Student(s1);
+        // System.out.println("Copy constructor" + " " + s2.name + " " + s2.age);
+        // }
     }
 }
