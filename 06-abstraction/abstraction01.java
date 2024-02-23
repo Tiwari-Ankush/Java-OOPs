@@ -50,9 +50,13 @@ class Chicken extends Animal {
 }
 
 public class abstraction01 {
+
     public static void main(String[] args) {
+
         Horse h = new Horse();
         h.walk();
+
         h.breathe();
+
     }
 }
